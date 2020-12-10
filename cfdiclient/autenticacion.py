@@ -10,7 +10,7 @@ from lxml import etree
 
 class Autenticacion():
     SOAP_URL = 'https://cfdidescargamasivasolicitud.clouda.sat.gob.mx/Autenticacion/Autenticacion.svc'
-    SOAP_ACTION = 'http://DescargaMasivaTerceros.gob.mx/IAutenticacion/Autentica'
+    SOAP_ACTION = 'http://DescargaMasivaTerceros.sat.gob.mx/IAutenticacion/Autentica'
     NSMAP = {
         's': 'http://schemas.xmlsoap.org/soap/envelope/',
         'u': 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd'
